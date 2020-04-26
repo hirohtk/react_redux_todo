@@ -6,6 +6,8 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { composeWithDevTools } from 'redux-devtools-extension'
 
+
+
 // createStore, to create the store that will maintain the Redux state
 // applyMiddleware, to be able to use middleware, in this case thunk
 // Provider, to wrap the entire application in Redux
